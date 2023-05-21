@@ -1,0 +1,15 @@
+@mixin titlePrimary{
+    background-image: linear-gradient(321deg, rgb(203, 120, 38) , rgb(211, 200, 46) , rgb(222, 15, 15),green);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    text-align: center;
+    
+}
+@mixin linearGradientText{
+    background-image: linear-gradient(321deg, rgb(203, 120, 38) , rgb(211, 200, 46) , rgb(222, 15, 15),green);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
